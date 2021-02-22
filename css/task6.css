@@ -1,0 +1,146 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image:linear-gradient(rgba(220,20,60,0.3),rgba(220,20,60,0.3)),url(../images/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+/*start of header*/
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    }
+header .p1{
+    text-transform: capitalize;
+    font-family: "Lobster", serif;
+    font-size: 100px;
+    margin-left: 300px;
+    color: white;
+    margin-top: 50px;
+}
+header ul{
+    display: flex;
+    list-style-type: none;
+    margin-right: 400px;
+    
+}
+header ul li{
+    margin-top: 110px;
+}
+ header ul li a{
+    text-decoration: none;
+    color: white;
+     padding: 5px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+/*end of header*/
+/*start of nav bar*/
+.nav{
+    height: 550px;
+    background-color: white;
+}
+.nav ul{
+    display: flex;
+    list-style-type: none;
+    padding:20px;
+    margin-left: 100px;
+}
+.nav ul li{
+    padding: 20px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color:#3cb371;
+    text-shadow: 3px 3px 3px #888;
+    font-size: 25px;
+    font-weight: bold;
+}
+/*start of picture*/
+/*end of picture*/
+.nav .images{
+    display: flex;
+    justify-content: space-between;
+}
+.nav .images img{
+    width: 450px;
+    height: 400px;
+}
+/*start of images2*/
+.images2{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.images2 img{
+    width: 600px;
+    height: 200px;
+    margin: 50px 7px;
+}
+/*end of images2*/
+/*end of navbar*/
+/*start of images3,4*/
+hr{
+    width: 80%;
+    margin: auto;
+}
+h1{
+  text-transform: capitalize;
+    font-family: "Lobster", serif;
+    font-size: 40px;
+    margin-left: 145px;
+    color: white;
+    margin-top: 30px;  
+}
+.images3 {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+.images3 img{
+    width: 240px; 
+    height: 240px;
+    border: solid 3px white;
+    margin: 30px 5px 10px;
+}
+.images3 .p1{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.images3 .p2{
+     margin-left: 10px;
+    text-transform: capitalize;
+    font-family: "Lobster", serif;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 15px;
+}
+/*end of images3,4*/
+/*start of footer*/
+footer{
+    background-color: white;
+    height: 100px;
+    margin-top: 25px;
+}
+footer ul{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    list-style: none;
+}
+footer ul li{
+    margin: 30px;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family: "Lobster", serif;
+    color:#ff00ff;
+}
+/*end of footer*/
